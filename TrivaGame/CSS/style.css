@@ -1,0 +1,40 @@
+body {
+    background-image: url(http://www.konbini.com/wp-content/blogs.dir/13/files/2017/12/dragon-ball-z-480x279.jpg);
+    color: blue;
+    background-size: 100%;
+    font-size: 2em;
+}
+
+button {
+    font-size: 1em;
+    margin: 10px;
+}
+
+.content {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.game-box {
+    justify-content: center;
+    text-align: center;
+}
+
+#trivia-answers {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+#empty-div {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color:white;
+} 
